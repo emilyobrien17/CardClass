@@ -1,0 +1,33 @@
+c1 = Ace of Diamonds
+     rank: 1
+     suit: 0
+    value: 14
+   abbrev: AD
+      ace? true
+
+c2 = null of Diamonds
+     rank: 0
+     suit: 0
+    value: 0
+   abbrev: nullD
+      ace? false
+
+c3 = null of Diamonds
+     rank: 0
+     suit: 0
+    value: 0
+   abbrev: nullD
+      ace? false
+
+c4 = null of Diamonds
+     rank: 0
+     suit: 0
+    value: 0
+   abbrev: nullD
+      ace? false
+
+c1.versus(c2) = win
+c1.versus(c3) = win
+c1.versus(c4) = win
+c2.versus(c3) = war
+
